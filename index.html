@@ -172,7 +172,7 @@ footer{border-top:1px solid var(--gd);margin:0 20px}
 
 <section>
   <h2>🎁 <span data-l="es">Listas de Regalos</span><span data-l="en">Wish Lists</span></h2>
-  <p data-l="es">Tu presencia es el mejor regalo. Si deseas darnos una idea, aquí están sus listas de deseos.</p>
+  <p data-l="es">Tu presencia es el mejor regalo. Si quieres alguna idea para sorprenderlos, aquí están sus listas de deseos.</p>
   <p data-l="en">Your presence is the greatest gift. If you’d like a little inspiration, here are their wish lists.</p>
   <div class="gifts">
     <div class="card mc">
@@ -262,7 +262,7 @@ return false}
 (function(){var i=document.getElementById('intro'),o=false;
 window.openIntro=function(){if(o)return;o=true;i.classList.add('open');setTimeout(function(){i.remove()},1500)};
 if(matchMedia('(prefers-reduced-motion:reduce)').matches){i.remove()}else setTimeout(openIntro,3300);
-var f=document.getElementById('fx'),E=['✦','🌹','✦','🏁','✦','🦋'];
+var f=document.getElementById('fx'),E=['✦','🌹','✦','🏁','✦','🏎️'];
 for(var k=0;k<16;k++){var s=document.createElement('span');s.className='fl';s.textContent=E[k%6];s.style.cssText='left:'+Math.random()*96+'%;font-size:'+(14+Math.random()*16)+'px;animation-duration:'+(9+Math.random()*10)+'s;animation-delay:-'+Math.random()*15+'s';f.appendChild(s)}
 if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});document.querySelectorAll('section,.card,.sched li').forEach(function(el){el.classList.add('rv');io.observe(el)})}})();
 </script>
